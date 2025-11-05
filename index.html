@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Publicado - Publicar Aplicações Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <h1 class="logo">MeuSite</h1>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Bem-vindo ao Meu Site</h1>
+                <p>Projeto desenvolvido para a unidade curricular Publicar Aplicações Web</p>
+                <button class="cta-button" id="ctaBtn">Saber Mais</button>
+            </div>
+        </section>
+
+        <section id="sobre" class="content-section">
+            <h2>Conceitos Revisados</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <h3>HTML5 Semântico</h3>
+                    <p>Uso de tags semânticas para melhor estruturação e SEO</p>
+                </div>
+                <div class="card">
+                    <h3>CSS3 Moderno</h3>
+                    <p>Flexbox, Grid, variáveis CSS e design responsivo</p>
+                </div>
+                <div class="card">
+                    <h3>JavaScript ES6+</h3>
+                    <p>Manipulação DOM, eventos e funções modernas</p>
+                </div>
+                <div class="card">
+                    <h3>Deploy no Vercel</h3>
+                    <p>Publicação e hospedagem de aplicações web</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="content-section">
+            <h2>Entre em Contato</h2>
+            <form class="contact-form" id="contactForm">
+                <input type="text" placeholder="Seu nome" required>
+                <input type="email" placeholder="Seu e-mail" required>
+                <textarea placeholder="Sua mensagem" rows="5" required></textarea>
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
